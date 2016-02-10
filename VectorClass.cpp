@@ -54,7 +54,7 @@ public:
 			return y;
 		}
 	}
-	int s;
+
 	Vector& operator++() { ++x; ++y; return *this; } //++Vec return vec(++x,++y)
 	Vector operator++(int) //vec++" " return vec(x,y) but x++ and y++.
 	{
